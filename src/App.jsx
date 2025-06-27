@@ -296,7 +296,7 @@ const educationData = [
 
 const Education = () => (
    <section
-    id="experience"
+    id="education"
      className="relative z-0 py-24 px-4 md:px-8 bg-gradient-to-br from-[#050517] via-[#0d0b26] to-[#0a0a1a] text-white overflow-hidden"
 
   >
@@ -400,10 +400,10 @@ const Skills = () => (
               skill === "NumPy" ? <SiNumpy className="text-blue-300" /> :
               skill === "TensorFlow" ? <SiTensorflow className="text-orange-400" /> :
               skill === "Machine Learning" ? (
-                <img src="src/assets/machine.jpg" alt="Machine Learning" className="w-12 h-12 object-contain rounded-full shadow-md" />
+                <img src="/machine.jpg" alt="Machine Learning" className="w-12 h-12 object-contain rounded-full shadow-md" />
               ) :
               skill === "Deep Learning" ? (
-                <img src="src/assets/deep.png" alt="Deep Learning" className="w-12 h-12 object-contain rounded-full shadow-md" />
+                <img src="/deep.png" alt="Deep Learning" className="w-12 h-12 object-contain rounded-full shadow-md" />
               ) :
               null
             }
