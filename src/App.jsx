@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <img
-  src="public/vg2.jpg"
+  src="/vg2.jpg"
   alt="Logo"
   className="w-15 h-15 rounded-full object-cover"
 />
@@ -131,7 +131,7 @@ const About = () => (
           className="flex-shrink-0 w-[320px] h-[420px] border-4 rounded-xl border-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center bg-[#1e293b] shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-500"
         >
           <img
-            src="public/varshini.jpg"
+            src="/varshini.jpg"
             alt="varshini"
             className="w-full h-full object-cover"
           />
@@ -629,7 +629,7 @@ const HeroSection = () => (
       </motion.div>
 
       <motion.a
-        href="public/21CSR235_VARSHINI G.pdf"
+        href="/21CSR235_VARSHINI G.pdf"
         download
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
